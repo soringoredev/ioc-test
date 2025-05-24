@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    private Chef myChef;
+    private Chef myChef777;
 
     //constructor
     @Autowired
     public DemoController(Chef theChef) {
-        myChef = theChef;
+        myChef777 = theChef;
     }
 }
